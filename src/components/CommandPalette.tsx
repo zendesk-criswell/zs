@@ -43,7 +43,7 @@ function ResultGroup (props: { title: string, children: React.ReactNode }) {
   )
 }
 
-const fetchApi = (endpoint: string) => () => fetch(`/${endpoint}.json`).then(res => res.json())
+const fetchApi = (endpoint: string) => () => fetch(`${endpoint}.json`).then(res => res.json())
 
 const RESULT_TYPE_ORDER: ResultType[] = ['views', 'macros', 'triggers', 'trigger_categories', 'automations', 'groups']
 
