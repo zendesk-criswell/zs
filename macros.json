@@ -1,0 +1,85 @@
+{
+  "macros": [
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/macros/4571059665662.json",
+      "id": 4571059665662,
+      "title": "Close and redirect to topics",
+      "active": true,
+      "updated_at": "2022-06-02T17:50:19Z",
+      "created_at": "2021-11-05T15:25:59Z",
+      "default": false,
+      "permissions": {
+        "can_edit": true
+      },
+      "position": 9999,
+      "description": null,
+      "actions": [
+        {
+          "field": "status",
+          "value": "solved"
+        },
+        {
+          "field": "priority",
+          "value": "normal"
+        },
+        {
+          "field": "type",
+          "value": "incident"
+        },
+        {
+          "field": "assignee_id",
+          "value": "current_user"
+        },
+        {
+          "field": "group_id",
+          "value": "current_groups"
+        },
+        {
+          "field": "comment_value",
+          "value": "Thanks for your request. This issue you reported is a known issue. For more information, please visit our forums. "
+        }
+      ],
+      "restriction": null,
+      "app_installation": null,
+      "raw_title": "Close and redirect to topics",
+      "usage_1h": 0,
+      "usage_24h": 0,
+      "usage_7d": 0,
+      "usage_30d": 0
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/macros/4571059665918.json",
+      "id": 4571059665918,
+      "title": "Downgrade and inform",
+      "active": true,
+      "updated_at": "2022-06-02T17:50:19Z",
+      "created_at": "2021-11-05T15:25:59Z",
+      "default": false,
+      "permissions": {
+        "can_edit": true
+      },
+      "position": 9999,
+      "description": null,
+      "actions": [
+        {
+          "field": "priority",
+          "value": "low"
+        },
+        {
+          "field": "comment_value",
+          "value": "We're currently experiencing unusually high traffic. We'll get back to you as soon as possible."
+        }
+      ],
+      "restriction": null,
+      "app_installation": null,
+      "raw_title": "Downgrade and inform",
+      "usage_1h": 0,
+      "usage_24h": 0,
+      "usage_7d": 0,
+      "usage_30d": 0
+    }
+  ],
+  "next_page": null,
+  "previous_page": null,
+  "count": 2
+}

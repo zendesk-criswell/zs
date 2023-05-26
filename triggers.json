@@ -1,0 +1,273 @@
+{
+  "triggers": [
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/triggers/6223310978558.json",
+      "id": 6223310978558,
+      "title": "Trigger API test trigger 1 : 1658507650",
+      "active": false,
+      "updated_at": "2022-09-16T19:40:55Z",
+      "created_at": "2022-07-22T16:34:10Z",
+      "default": false,
+      "actions": [
+        {
+          "field": "status",
+          "value": "pending"
+        }
+      ],
+      "conditions": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "is",
+            "value": "new"
+          },
+          {
+            "field": "current_tags",
+            "operator": "includes",
+            "value": "api_test_1"
+          }
+        ],
+        "any": []
+      },
+      "description": "This trigger should be deleted after this test completes",
+      "position": 2,
+      "raw_title": "Trigger API test trigger 1 : 1658507650",
+      "usage_1h": 0,
+      "usage_24h": 0,
+      "usage_7d": 0,
+      "usage_30d": 0,
+      "category_id": "6223360867710"
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/triggers/6223321479422.json",
+      "id": 6223321479422,
+      "title": "Trigger API test trigger 5 : 1658507652",
+      "active": false,
+      "updated_at": "2022-09-15T23:04:54Z",
+      "created_at": "2022-07-22T16:34:12Z",
+      "default": false,
+      "actions": [
+        {
+          "field": "status",
+          "value": "pending"
+        }
+      ],
+      "conditions": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "is",
+            "value": "new"
+          },
+          {
+            "field": "current_tags",
+            "operator": "includes",
+            "value": "api_test_5"
+          }
+        ],
+        "any": []
+      },
+      "description": "This trigger should be deleted after this test completes",
+      "position": 5,
+      "raw_title": "Trigger API test trigger 5 : 1658507652",
+      "usage_1h": 0,
+      "usage_24h": 0,
+      "usage_7d": 0,
+      "usage_30d": 0,
+      "category_id": "6223360867710"
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/triggers/6223363158654.json",
+      "id": 6223363158654,
+      "title": "Trigger API test trigger 370 : 1658507840",
+      "active": false,
+      "updated_at": "2022-10-13T12:51:00Z",
+      "created_at": "2022-07-22T16:37:20Z",
+      "default": false,
+      "actions": [
+        {
+          "field": "status",
+          "value": "pending"
+        }
+      ],
+      "conditions": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "is",
+            "value": "new"
+          },
+          {
+            "field": "current_tags",
+            "operator": "includes",
+            "value": "api_test_370"
+          }
+        ],
+        "any": []
+      },
+      "description": "This trigger should be deleted after this test completes",
+      "position": 365,
+      "raw_title": "Trigger API test trigger 370 : 1658507840",
+      "usage_1h": 0,
+      "usage_24h": 0,
+      "usage_7d": 0,
+      "usage_30d": 0,
+      "category_id": "6223360867710"
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/triggers/6223332425342.json",
+      "id": 6223332425342,
+      "title": "Trigger API test trigger 371 : 1658507840",
+      "active": false,
+      "updated_at": "2022-10-13T12:51:00Z",
+      "created_at": "2022-07-22T16:37:21Z",
+      "default": false,
+      "actions": [
+        {
+          "field": "status",
+          "value": "pending"
+        }
+      ],
+      "conditions": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "is",
+            "value": "new"
+          },
+          {
+            "field": "current_tags",
+            "operator": "includes",
+            "value": "api_test_371"
+          }
+        ],
+        "any": []
+      },
+      "description": "This trigger should be deleted after this test completes",
+      "position": 366,
+      "raw_title": "Trigger API test trigger 371 : 1658507840",
+      "usage_1h": 0,
+      "usage_24h": 0,
+      "usage_7d": 0,
+      "usage_30d": 0,
+      "category_id": "6223360867710"
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/triggers/6223332428926.json",
+      "id": 6223332428926,
+      "title": "Trigger API test trigger 372 : 1658507841",
+      "active": false,
+      "updated_at": "2022-10-13T12:51:00Z",
+      "created_at": "2022-07-22T16:37:21Z",
+      "default": false,
+      "actions": [
+        {
+          "field": "status",
+          "value": "pending"
+        }
+      ],
+      "conditions": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "is",
+            "value": "new"
+          },
+          {
+            "field": "current_tags",
+            "operator": "includes",
+            "value": "api_test_372"
+          }
+        ],
+        "any": []
+      },
+      "description": "This trigger should be deleted after this test completes",
+      "position": 367,
+      "raw_title": "Trigger API test trigger 372 : 1658507841",
+      "usage_1h": 0,
+      "usage_24h": 0,
+      "usage_7d": 0,
+      "usage_30d": 0,
+      "category_id": "6223360867710"
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/triggers/6223332644606.json",
+      "id": 6223332644606,
+      "title": "Trigger API test trigger 398 : 1658507855",
+      "active": false,
+      "updated_at": "2022-09-15T03:09:08Z",
+      "created_at": "2022-07-22T16:37:35Z",
+      "default": false,
+      "actions": [
+        {
+          "field": "status",
+          "value": "pending"
+        }
+      ],
+      "conditions": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "is",
+            "value": "new"
+          },
+          {
+            "field": "current_tags",
+            "operator": "includes",
+            "value": "api_test_398"
+          }
+        ],
+        "any": []
+      },
+      "description": "This trigger should be deleted after this test completes",
+      "position": 399,
+      "raw_title": "Trigger API test trigger 398 : 1658507855",
+      "usage_1h": 0,
+      "usage_24h": 0,
+      "usage_7d": 0,
+      "usage_30d": 0,
+      "category_id": "6223360867710"
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/triggers/6223363386494.json",
+      "id": 6223363386494,
+      "title": "Trigger API test trigger 396 : 1658507854",
+      "active": false,
+      "updated_at": "2022-09-15T03:09:08Z",
+      "created_at": "2022-07-22T16:37:34Z",
+      "default": false,
+      "actions": [
+        {
+          "field": "status",
+          "value": "pending"
+        }
+      ],
+      "conditions": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "is",
+            "value": "new"
+          },
+          {
+            "field": "current_tags",
+            "operator": "includes",
+            "value": "api_test_396"
+          }
+        ],
+        "any": []
+      },
+      "description": "This trigger should be deleted after this test completes",
+      "position": 400,
+      "raw_title": "Trigger API test trigger 396 : 1658507854",
+      "usage_1h": 0,
+      "usage_24h": 0,
+      "usage_7d": 0,
+      "usage_30d": 0,
+      "category_id": "6223360867710"
+    }
+  ],
+  "next_page": null,
+  "previous_page": null,
+  "count": 14
+}

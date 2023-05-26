@@ -1,0 +1,37 @@
+{
+  "groups": [
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/groups/7066016100606.json",
+      "id": 7066016100606,
+      "is_public": true,
+      "name": "jhklhljkhlkj",
+      "description": "The name says it all, pal.",
+      "default": false,
+      "deleted": false,
+      "created_at": "2023-05-04T14:51:40Z",
+      "updated_at": "2023-05-18T18:32:40Z",
+      "membership_count": 1
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/groups/4571065756542.json",
+      "id": 4571065756542,
+      "is_public": true,
+      "name": "Support",
+      "description": "",
+      "default": true,
+      "deleted": false,
+      "created_at": "2021-11-05T15:25:57Z",
+      "updated_at": "2021-11-05T15:25:57Z",
+      "membership_count": 4
+    }
+  ],
+  "meta": {
+    "has_more": false,
+    "after_cursor": "eyJvIjoibmFtZSxpZCIsInYiOiJjd2NBQUFCVGRYQndiM0owYVg0cndFZ29CQUFBIn0=",
+    "before_cursor": "eyJvIjoibmFtZSxpZCIsInYiOiJjd3dBQUFCcWFHdHNhR3hxYTJoc2EycHAvakJoTDIwR0FBQT0ifQ=="
+  },
+  "links": {
+    "prev": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/groups.json?include=membership_count&page%5Bbefore%5D=eyJvIjoibmFtZSxpZCIsInYiOiJjd3dBQUFCcWFHdHNhR3hxYTJoc2EycHAvakJoTDIwR0FBQT0ifQ%3D%3D&page%5Bsize%5D=1000",
+    "next": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/groups.json?include=membership_count&page%5Bafter%5D=eyJvIjoibmFtZSxpZCIsInYiOiJjd2NBQUFCVGRYQndiM0owYVg0cndFZ29CQUFBIn0%3D&page%5Bsize%5D=1000"
+  }
+}

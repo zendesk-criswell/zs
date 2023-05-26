@@ -1,0 +1,93 @@
+{
+  "trigger_categories": [
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/trigger_categories/6222690563582.json",
+      "id": "6222690563582",
+      "name": "Lots Of Triggersssss",
+      "updated_at": "2022-10-13T20:45:54Z",
+      "created_at": "2022-07-22T14:52:28Z",
+      "position": 1,
+      "active_count": 0,
+      "inactive_count": 6
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/trigger_categories/6341432954366.json",
+      "id": "6341432954366",
+      "name": "What",
+      "updated_at": "2022-10-13T20:10:57Z",
+      "created_at": "2022-08-08T17:22:43Z",
+      "position": 2,
+      "active_count": 0,
+      "inactive_count": 1
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/trigger_categories/6154803317630.json",
+      "id": "6154803317630",
+      "name": "Testingzzz",
+      "updated_at": "2022-10-13T20:13:25Z",
+      "created_at": "2022-07-15T19:09:37Z",
+      "position": 3,
+      "active_count": 0,
+      "inactive_count": 0
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/trigger_categories/4571059615742.json",
+      "id": "4571059615742",
+      "name": "Notificationz",
+      "updated_at": "2022-08-16T23:54:52Z",
+      "created_at": "2021-11-05T15:25:57Z",
+      "position": 4,
+      "active_count": 0,
+      "inactive_count": 5
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/trigger_categories/6203140545150.json",
+      "id": "6203140545150",
+      "name": "I am a regular length category.",
+      "updated_at": "2022-09-20T17:27:01Z",
+      "created_at": "2022-07-19T18:00:36Z",
+      "position": 5,
+      "active_count": 0,
+      "inactive_count": 2
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/trigger_categories/6223360867710.json",
+      "id": "6223360867710",
+      "name": "Trigger category created from API test triggers : 1658507649",
+      "updated_at": "2022-09-14T15:30:50Z",
+      "created_at": "2022-07-22T16:34:09Z",
+      "position": 6,
+      "active_count": 384,
+      "inactive_count": 14
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/trigger_categories/6481858957950.json",
+      "id": "6481858957950",
+      "name": "Empty Categories",
+      "updated_at": "2022-09-05T02:51:27Z",
+      "created_at": "2022-09-05T02:51:27Z",
+      "position": 7,
+      "active_count": 0,
+      "inactive_count": 1
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/trigger_categories/6517323805694.json",
+      "id": "6517323805694",
+      "name": "MEOWSERSSSSS",
+      "updated_at": "2022-09-12T21:06:01Z",
+      "created_at": "2022-09-12T21:06:01Z",
+      "position": 8,
+      "active_count": 0,
+      "inactive_count": 1
+    }
+  ],
+  "meta": {
+    "has_more": false,
+    "after_cursor": "eyJvIjoicG9zaXRpb24saWQiLCJ2IjoiYVFnQUFBQUFBQUFBYWY0enhXN3RCUUFBIn0=",
+    "before_cursor": "eyJvIjoicG9zaXRpb24saWQiLCJ2IjoiYVFFQUFBQUFBQUFBYWY2MVF0V29CUUFBIn0="
+  },
+  "links": {
+    "prev": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/trigger_categories.json?include=rule_counts&page%5Bbefore%5D=eyJvIjoicG9zaXRpb24saWQiLCJ2IjoiYVFFQUFBQUFBQUFBYWY2MVF0V29CUUFBIn0%3D",
+    "next": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/trigger_categories.json?include=rule_counts&page%5Bafter%5D=eyJvIjoicG9zaXRpb24saWQiLCJ2IjoiYVFnQUFBQUFBQUFBYWY0enhXN3RCUUFBIn0%3D"
+  }
+}
