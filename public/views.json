@@ -1,0 +1,951 @@
+{
+  "views": [
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/views/4571065806206.json",
+      "id": 4571065806206,
+      "title": "Your unsolved tickets",
+      "active": true,
+      "updated_at": "2021-11-05T15:25:58Z",
+      "created_at": "2021-11-05T15:25:58Z",
+      "default": false,
+      "permissions": {
+        "can_edit": true
+      },
+      "position": 0,
+      "description": null,
+      "execution": {
+        "group_by": "status",
+        "group_order": "asc",
+        "sort_by": "nice_id",
+        "sort_order": "desc",
+        "group": {
+          "id": "status",
+          "title": "Status category",
+          "filterable": true,
+          "sortable": true,
+          "order": "asc"
+        },
+        "sort": {
+          "id": "ticket_id",
+          "title": "ID",
+          "filterable": true,
+          "sortable": true,
+          "order": "desc"
+        },
+        "columns": [
+          {
+            "id": "subject",
+            "title": "Subject",
+            "filterable": false,
+            "sortable": false
+          },
+          {
+            "id": "requester",
+            "title": "Requester",
+            "filterable": true,
+            "sortable": false
+          },
+          {
+            "id": "created",
+            "title": "Requested",
+            "filterable": false,
+            "sortable": true
+          },
+          {
+            "id": "type",
+            "title": "Type",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "priority",
+            "title": "Priority",
+            "filterable": true,
+            "sortable": true
+          }
+        ],
+        "fields": [
+          {
+            "id": "subject",
+            "title": "Subject",
+            "filterable": false,
+            "sortable": false
+          },
+          {
+            "id": "requester",
+            "title": "Requester",
+            "filterable": true,
+            "sortable": false
+          },
+          {
+            "id": "created",
+            "title": "Requested",
+            "filterable": false,
+            "sortable": true
+          },
+          {
+            "id": "type",
+            "title": "Type",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "priority",
+            "title": "Priority",
+            "filterable": true,
+            "sortable": true
+          }
+        ],
+        "custom_fields": []
+      },
+      "conditions": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "less_than",
+            "value": "solved"
+          },
+          {
+            "field": "assignee_id",
+            "operator": "is",
+            "value": "current_user"
+          }
+        ],
+        "any": []
+      },
+      "restriction": null,
+      "app_installation": null,
+      "raw_title": "{{zd.your_unsolved_tickets}}"
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/views/4571065809406.json",
+      "id": 4571065809406,
+      "title": "Unassigned tickets",
+      "active": true,
+      "updated_at": "2021-11-05T15:25:58Z",
+      "created_at": "2021-11-05T15:25:58Z",
+      "default": false,
+      "permissions": {
+        "can_edit": true
+      },
+      "position": 1,
+      "description": null,
+      "execution": {
+        "group_by": null,
+        "group_order": "asc",
+        "sort_by": "created",
+        "sort_order": "desc",
+        "group": null,
+        "sort": {
+          "id": "created",
+          "title": "Requested",
+          "filterable": false,
+          "sortable": true,
+          "order": "desc"
+        },
+        "columns": [
+          {
+            "id": "subject",
+            "title": "Subject",
+            "filterable": false,
+            "sortable": false
+          },
+          {
+            "id": "requester",
+            "title": "Requester",
+            "filterable": true,
+            "sortable": false
+          },
+          {
+            "id": "created",
+            "title": "Requested",
+            "filterable": false,
+            "sortable": true
+          },
+          {
+            "id": "priority",
+            "title": "Priority",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "group",
+            "title": "Group",
+            "filterable": true,
+            "sortable": true
+          }
+        ],
+        "fields": [
+          {
+            "id": "subject",
+            "title": "Subject",
+            "filterable": false,
+            "sortable": false
+          },
+          {
+            "id": "requester",
+            "title": "Requester",
+            "filterable": true,
+            "sortable": false
+          },
+          {
+            "id": "created",
+            "title": "Requested",
+            "filterable": false,
+            "sortable": true
+          },
+          {
+            "id": "priority",
+            "title": "Priority",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "group",
+            "title": "Group",
+            "filterable": true,
+            "sortable": true
+          }
+        ],
+        "custom_fields": []
+      },
+      "conditions": {
+        "all": [
+          {
+            "field": "assignee_id",
+            "operator": "is",
+            "value": ""
+          },
+          {
+            "field": "status",
+            "operator": "less_than",
+            "value": "solved"
+          }
+        ],
+        "any": []
+      },
+      "restriction": null,
+      "app_installation": null,
+      "raw_title": "{{zd.unassigned_tickets}}"
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/views/4571065809150.json",
+      "id": 4571065809150,
+      "title": "All unsolved tickets",
+      "active": true,
+      "updated_at": "2021-11-05T15:25:58Z",
+      "created_at": "2021-11-05T15:25:58Z",
+      "default": false,
+      "permissions": {
+        "can_edit": true
+      },
+      "position": 2,
+      "description": null,
+      "execution": {
+        "group_by": "assignee",
+        "group_order": "asc",
+        "sort_by": "nice_id",
+        "sort_order": "desc",
+        "group": {
+          "id": "assignee",
+          "title": "Assignee",
+          "filterable": true,
+          "sortable": false,
+          "order": "asc"
+        },
+        "sort": {
+          "id": "ticket_id",
+          "title": "ID",
+          "filterable": true,
+          "sortable": true,
+          "order": "desc"
+        },
+        "columns": [
+          {
+            "id": "subject",
+            "title": "Subject",
+            "filterable": false,
+            "sortable": false
+          },
+          {
+            "id": "requester",
+            "title": "Requester",
+            "filterable": true,
+            "sortable": false
+          },
+          {
+            "id": "created",
+            "title": "Requested",
+            "filterable": false,
+            "sortable": true
+          },
+          {
+            "id": "priority",
+            "title": "Priority",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "updated",
+            "title": "Updated",
+            "filterable": true,
+            "sortable": true
+          }
+        ],
+        "fields": [
+          {
+            "id": "subject",
+            "title": "Subject",
+            "filterable": false,
+            "sortable": false
+          },
+          {
+            "id": "requester",
+            "title": "Requester",
+            "filterable": true,
+            "sortable": false
+          },
+          {
+            "id": "created",
+            "title": "Requested",
+            "filterable": false,
+            "sortable": true
+          },
+          {
+            "id": "priority",
+            "title": "Priority",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "updated",
+            "title": "Updated",
+            "filterable": true,
+            "sortable": true
+          }
+        ],
+        "custom_fields": []
+      },
+      "conditions": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "less_than",
+            "value": "solved"
+          }
+        ],
+        "any": []
+      },
+      "restriction": null,
+      "app_installation": null,
+      "raw_title": "{{zd.all_unsolved_tickets}}"
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/views/4571065809662.json",
+      "id": 4571065809662,
+      "title": "Recently updated tickets",
+      "active": true,
+      "updated_at": "2021-11-05T15:25:58Z",
+      "created_at": "2021-11-05T15:25:58Z",
+      "default": false,
+      "permissions": {
+        "can_edit": true
+      },
+      "position": 3,
+      "description": null,
+      "execution": {
+        "group_by": "status",
+        "group_order": "asc",
+        "sort_by": "updated",
+        "sort_order": "desc",
+        "group": {
+          "id": "status",
+          "title": "Status category",
+          "filterable": true,
+          "sortable": true,
+          "order": "asc"
+        },
+        "sort": {
+          "id": "updated",
+          "title": "Updated",
+          "filterable": true,
+          "sortable": true,
+          "order": "desc"
+        },
+        "columns": [
+          {
+            "id": "subject",
+            "title": "Subject",
+            "filterable": false,
+            "sortable": false
+          },
+          {
+            "id": "requester",
+            "title": "Requester",
+            "filterable": true,
+            "sortable": false
+          },
+          {
+            "id": "created",
+            "title": "Requested",
+            "filterable": false,
+            "sortable": true
+          },
+          {
+            "id": "priority",
+            "title": "Priority",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "group",
+            "title": "Group",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "assignee",
+            "title": "Assignee",
+            "filterable": true,
+            "sortable": false
+          }
+        ],
+        "fields": [
+          {
+            "id": "subject",
+            "title": "Subject",
+            "filterable": false,
+            "sortable": false
+          },
+          {
+            "id": "requester",
+            "title": "Requester",
+            "filterable": true,
+            "sortable": false
+          },
+          {
+            "id": "created",
+            "title": "Requested",
+            "filterable": false,
+            "sortable": true
+          },
+          {
+            "id": "priority",
+            "title": "Priority",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "group",
+            "title": "Group",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "assignee",
+            "title": "Assignee",
+            "filterable": true,
+            "sortable": false
+          }
+        ],
+        "custom_fields": []
+      },
+      "conditions": {
+        "all": [
+          {
+            "field": "updated_at",
+            "operator": "less_than",
+            "value": "24"
+          },
+          {
+            "field": "status",
+            "operator": "less_than",
+            "value": "closed"
+          }
+        ],
+        "any": []
+      },
+      "restriction": null,
+      "app_installation": null,
+      "raw_title": "{{zd.recently_updated_tickets}}"
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/views/4571065808638.json",
+      "id": 4571065808638,
+      "title": "New tickets in your groups",
+      "active": true,
+      "updated_at": "2021-11-05T15:25:58Z",
+      "created_at": "2021-11-05T15:25:58Z",
+      "default": false,
+      "permissions": {
+        "can_edit": true
+      },
+      "position": 9999,
+      "description": null,
+      "execution": {
+        "group_by": "group",
+        "group_order": "desc",
+        "sort_by": "created",
+        "sort_order": "desc",
+        "group": {
+          "id": "group",
+          "title": "Group",
+          "filterable": true,
+          "sortable": true,
+          "order": "desc"
+        },
+        "sort": {
+          "id": "created",
+          "title": "Requested",
+          "filterable": false,
+          "sortable": true,
+          "order": "desc"
+        },
+        "columns": [
+          {
+            "id": "subject",
+            "title": "Subject",
+            "filterable": false,
+            "sortable": false
+          },
+          {
+            "id": "requester",
+            "title": "Requester",
+            "filterable": true,
+            "sortable": false
+          },
+          {
+            "id": "created",
+            "title": "Requested",
+            "filterable": false,
+            "sortable": true
+          },
+          {
+            "id": "priority",
+            "title": "Priority",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "assignee",
+            "title": "Assignee",
+            "filterable": true,
+            "sortable": false
+          }
+        ],
+        "fields": [
+          {
+            "id": "subject",
+            "title": "Subject",
+            "filterable": false,
+            "sortable": false
+          },
+          {
+            "id": "requester",
+            "title": "Requester",
+            "filterable": true,
+            "sortable": false
+          },
+          {
+            "id": "created",
+            "title": "Requested",
+            "filterable": false,
+            "sortable": true
+          },
+          {
+            "id": "priority",
+            "title": "Priority",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "assignee",
+            "title": "Assignee",
+            "filterable": true,
+            "sortable": false
+          }
+        ],
+        "custom_fields": []
+      },
+      "conditions": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "less_than",
+            "value": "solved"
+          },
+          {
+            "field": "assignee_id",
+            "operator": "is",
+            "value": ""
+          },
+          {
+            "field": "group_id",
+            "operator": "is",
+            "value": "current_groups"
+          }
+        ],
+        "any": []
+      },
+      "restriction": null,
+      "app_installation": null,
+      "raw_title": "{{zd.new_tickets_in_group}}"
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/views/4571065809918.json",
+      "id": 4571065809918,
+      "title": "Pending tickets",
+      "active": true,
+      "updated_at": "2021-11-05T15:25:58Z",
+      "created_at": "2021-11-05T15:25:58Z",
+      "default": false,
+      "permissions": {
+        "can_edit": true
+      },
+      "position": 9999,
+      "description": null,
+      "execution": {
+        "group_by": "updated",
+        "group_order": "asc",
+        "sort_by": "nice_id",
+        "sort_order": "desc",
+        "group": {
+          "id": "updated",
+          "title": "Updated",
+          "filterable": true,
+          "sortable": true,
+          "order": "asc"
+        },
+        "sort": {
+          "id": "ticket_id",
+          "title": "ID",
+          "filterable": true,
+          "sortable": true,
+          "order": "desc"
+        },
+        "columns": [
+          {
+            "id": "subject",
+            "title": "Subject",
+            "filterable": false,
+            "sortable": false
+          },
+          {
+            "id": "requester",
+            "title": "Requester",
+            "filterable": true,
+            "sortable": false
+          },
+          {
+            "id": "created",
+            "title": "Requested",
+            "filterable": false,
+            "sortable": true
+          },
+          {
+            "id": "priority",
+            "title": "Priority",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "group",
+            "title": "Group",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "assignee",
+            "title": "Assignee",
+            "filterable": true,
+            "sortable": false
+          }
+        ],
+        "fields": [
+          {
+            "id": "subject",
+            "title": "Subject",
+            "filterable": false,
+            "sortable": false
+          },
+          {
+            "id": "requester",
+            "title": "Requester",
+            "filterable": true,
+            "sortable": false
+          },
+          {
+            "id": "created",
+            "title": "Requested",
+            "filterable": false,
+            "sortable": true
+          },
+          {
+            "id": "priority",
+            "title": "Priority",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "group",
+            "title": "Group",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "assignee",
+            "title": "Assignee",
+            "filterable": true,
+            "sortable": false
+          }
+        ],
+        "custom_fields": []
+      },
+      "conditions": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "is",
+            "value": "pending"
+          }
+        ],
+        "any": []
+      },
+      "restriction": null,
+      "app_installation": null,
+      "raw_title": "{{zd.pending_tickets}}"
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/views/4571065808894.json",
+      "id": 4571065808894,
+      "title": "Recently solved tickets",
+      "active": true,
+      "updated_at": "2021-11-05T15:25:58Z",
+      "created_at": "2021-11-05T15:25:58Z",
+      "default": false,
+      "permissions": {
+        "can_edit": true
+      },
+      "position": 9999,
+      "description": null,
+      "execution": {
+        "group_by": "assignee",
+        "group_order": "asc",
+        "sort_by": "solved",
+        "sort_order": "desc",
+        "group": {
+          "id": "assignee",
+          "title": "Assignee",
+          "filterable": true,
+          "sortable": false,
+          "order": "asc"
+        },
+        "sort": {
+          "id": "solved",
+          "title": "Solved",
+          "filterable": false,
+          "sortable": true,
+          "order": "desc"
+        },
+        "columns": [
+          {
+            "id": "subject",
+            "title": "Subject",
+            "filterable": false,
+            "sortable": false
+          },
+          {
+            "id": "requester",
+            "title": "Requester",
+            "filterable": true,
+            "sortable": false
+          },
+          {
+            "id": "created",
+            "title": "Requested",
+            "filterable": false,
+            "sortable": true
+          },
+          {
+            "id": "solved",
+            "title": "Solved",
+            "filterable": false,
+            "sortable": true
+          },
+          {
+            "id": "priority",
+            "title": "Priority",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "group",
+            "title": "Group",
+            "filterable": true,
+            "sortable": true
+          }
+        ],
+        "fields": [
+          {
+            "id": "subject",
+            "title": "Subject",
+            "filterable": false,
+            "sortable": false
+          },
+          {
+            "id": "requester",
+            "title": "Requester",
+            "filterable": true,
+            "sortable": false
+          },
+          {
+            "id": "created",
+            "title": "Requested",
+            "filterable": false,
+            "sortable": true
+          },
+          {
+            "id": "solved",
+            "title": "Solved",
+            "filterable": false,
+            "sortable": true
+          },
+          {
+            "id": "priority",
+            "title": "Priority",
+            "filterable": true,
+            "sortable": true
+          },
+          {
+            "id": "group",
+            "title": "Group",
+            "filterable": true,
+            "sortable": true
+          }
+        ],
+        "custom_fields": []
+      },
+      "conditions": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "is",
+            "value": "solved"
+          }
+        ],
+        "any": []
+      },
+      "restriction": null,
+      "app_installation": null,
+      "raw_title": "{{zd.recently_solved_tickets}}"
+    },
+    {
+      "url": "https://z3n-criswell-999testing.zendesk-staging.com/api/v2/views/4571065808382.json",
+      "id": 4571065808382,
+      "title": "Unsolved tickets in your groups",
+      "active": true,
+      "updated_at": "2021-11-05T15:25:58Z",
+      "created_at": "2021-11-05T15:25:58Z",
+      "default": false,
+      "permissions": {
+        "can_edit": true
+      },
+      "position": 9999,
+      "description": null,
+      "execution": {
+        "group_by": "group",
+        "group_order": "desc",
+        "sort_by": "nice_id",
+        "sort_order": "desc",
+        "group": {
+          "id": "group",
+          "title": "Group",
+          "filterable": true,
+          "sortable": true,
+          "order": "desc"
+        },
+        "sort": {
+          "id": "ticket_id",
+          "title": "ID",
+          "filterable": true,
+          "sortable": true,
+          "order": "desc"
+        },
+        "columns": [
+          {
+            "id": "subject",
+            "title": "Subject",
+            "filterable": false,
+            "sortable": false
+          },
+          {
+            "id": "requester",
+            "title": "Requester",
+            "filterable": true,
+            "sortable": false
+          },
+          {
+            "id": "created",
+            "title": "Requested",
+            "filterable": false,
+            "sortable": true
+          },
+          {
+            "id": "status",
+            "title": "Status category",
+            "filterable": true,
+            "sortable": true
+          }
+        ],
+        "fields": [
+          {
+            "id": "subject",
+            "title": "Subject",
+            "filterable": false,
+            "sortable": false
+          },
+          {
+            "id": "requester",
+            "title": "Requester",
+            "filterable": true,
+            "sortable": false
+          },
+          {
+            "id": "created",
+            "title": "Requested",
+            "filterable": false,
+            "sortable": true
+          },
+          {
+            "id": "status",
+            "title": "Status category",
+            "filterable": true,
+            "sortable": true
+          }
+        ],
+        "custom_fields": []
+      },
+      "conditions": {
+        "all": [
+          {
+            "field": "status",
+            "operator": "less_than",
+            "value": "solved"
+          },
+          {
+            "field": "group_id",
+            "operator": "is",
+            "value": "current_groups"
+          }
+        ],
+        "any": []
+      },
+      "restriction": null,
+      "app_installation": null,
+      "raw_title": "{{zd.unsolved_tickets_in_group}}"
+    }
+  ],
+  "next_page": null,
+  "previous_page": null,
+  "count": 8
+}
